@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#qualification
+{
+  text-transform: capitalize;
+}
+#qualification .row
+{
+  padding: 17px;
+}
+.baground .links .btn{
+  border: 1px solid blue;
+  border-radius: 20px;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  margin-left: 150px;
+  text-transform: uppercase;
+  }
+  .links i{
+  font-size: 20px;
+  }
+.links{
+  margin-left: 130px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  }
+  .links h1{
+  margin-left: 250px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  
+  }
+#hero22 .linksrc{
+    margin-top: 30px;
+    text-align: center;
+    
+    }
+    #hero22.linksrc a{
+    text-decoration: none;
+    color: blue;
+    padding: 20px;
+    
+    }
+#heading
+{
+background-color: rgb(243, 239, 192);
+text-align: center;
+text-transform: capitalize;
+}
+#hero22::before{
+  content: " ";
+  width: 80%;
+  height: 200px;
+  position: absolute;
+  background-image: url(khan.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  opacity: 0.2;
+  
+  
+  
+  }
+  .baground img{
+  margin-left: 38%;
+  width: 300px;
+  height: 80px;
+  }
+  .baground p{
+  margin-top: 30px;
+  text-align: center;
+
+  }
+
+#navbar
+{
+  
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+text-align: center;  
+}
+#btn button
+{
+  border: none;
+  text-transform: capitalize;
+  color:rgb(15, 144, 187);
+  font-size: 16px;
+  background-color: #fff;
+  padding:3px 5px;
+  font-weight: bold;
+}
+#btn button a{
+  text-decoration: none;
+  
+}
+#btn button a:hover
+{
+  color: green;
+  text-decoration: none;
+  background-color: bisque;
+}
+
+#hero
+{
+  height:200px;
+border: 2px solid orange;
+  position: relative;
+  background-image: url(khan.jpeg);
+}
+#content
+{
+  margin-top:40px;
+  text-transform: capitalize;
+  font-size: 12px;
+
+}
+#btn22:hover
+{
+background-color: rgb(179, 174, 170);
+color: black;
+}
+
+
+
